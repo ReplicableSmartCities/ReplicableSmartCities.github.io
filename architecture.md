@@ -10,5 +10,6 @@ Patterns are repeatable ways of organizing hardware, software and systems. They 
 
 <br>
 <br>
+
 ---
 [Home](https://replicablesmartcities.github.io)
