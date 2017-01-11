@@ -17,7 +17,7 @@ Open standards and conventions, whether established by standards organizations o
 
 ## Architectural Patterns
 
-We're defining a set of [Architectural Patterns](https://replicablesmartcities.github.io/architecture) that illustrate different ways devices, applications can interact to exchange information.
+We're defining a set of [Architectural Patterns](https://replicablesmartcities.github.io/architecture) that illustrate different ways devices, applications and systems can interact to exchange information.
 
 ## GitHub Repositories
 
