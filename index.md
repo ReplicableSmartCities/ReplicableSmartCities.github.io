@@ -13,9 +13,9 @@
 
 ## Standards & Open Source Software
 
-Open standards and conventions, whether established by standards organizations or open source projects, are used wherever possible along with open source software components. Read more about the [Standards & Open Source](https://replicablesmartcities.github.io/standards) we're using.
+Open standards and conventions, whether established by standards organizations or open source projects, are used wherever possible along with open source software components. Read more about the [Standards & Open Source Software](https://replicablesmartcities.github.io/standards) we're using.
 
 ## GitHub Repositories
 
-Replicable software templates and documentation can be found in the [GitHub site](https://github.com/ReplicableSmartCities).
+Replicable software templates, data structures and documentation can be found in the [GitHub site](https://github.com/ReplicableSmartCities).
 
