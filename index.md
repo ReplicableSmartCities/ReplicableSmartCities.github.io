@@ -1,4 +1,4 @@
-## Welcome to the Replicable Smart Cities GitHub Site
+# Welcome to the Replicable Smart Cities GitHub Site
 
 ## Guiding Principles
 
@@ -11,7 +11,11 @@
 * Facilitate data on-ramps / off-ramps
 * Address security and privacy early and often
 
-### Standards & Open Source
+## Standards & Open Source Software
 
-Open standards and conventions, whether they are established by standards organizations or open source projects, are used wherever possible along with open source software components. Read more about the [Standards & Open Source](https://replicablesmartcities.github.io/standards) we're using.
+Open standards and conventions, whether established by standards organizations or open source projects, are used wherever possible along with open source software components. Read more about the [Standards & Open Source](https://replicablesmartcities.github.io/standards) we're using.
+
+## GitHub Repositories
+
+Replicable software templates and documentation can be found in the [GitHub site](https://github.com/ReplicableSmartCities).
 
