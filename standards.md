@@ -23,5 +23,7 @@ Docker is a lightweight software containerization platform that allows applicati
 * [Docker](https://www.docker.com/)
 * [Open Source Software](https://www.docker.com/technologies/overview)
 
+<br>
+<br>
 ---
 [Home](https://replicablesmartcities.github.io)
