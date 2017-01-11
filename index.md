@@ -1,4 +1,4 @@
-# Welcome to the Replicable Smart Cities GitHub Site
+## Welcome to the Replicable Smart Cities GitHub Site
 
 ## Guiding Principles
 
