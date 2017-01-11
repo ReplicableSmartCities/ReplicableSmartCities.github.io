@@ -15,6 +15,10 @@
 
 Open standards and conventions, whether established by standards organizations or open source projects, are used wherever possible along with open source software components. Read more about the [Standards & Open Source Software](https://replicablesmartcities.github.io/standards) we're using.
 
+## Architectural Patterns
+
+We're defining a set of [Architectural Patterns](https://replicablesmartcities.github.io/architecture) that illustrate different ways devices, applications can interact to exchange information.
+
 ## GitHub Repositories
 
 Replicable software templates, data structures and documentation can be found in the [GitHub site](https://github.com/ReplicableSmartCities).
