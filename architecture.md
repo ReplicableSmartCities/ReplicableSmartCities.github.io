@@ -10,6 +10,8 @@ At the highest level we've chosen to use three basic interaction styles when des
 * Store and Forward
 * Batch
 
+The choice of a small number of easily understood interaction styles facilitates communication among the business and technical members of the team as well as across teams having different levels of technical depth.
+
 #### Real-Time
 
 A real-time interaction is one where all parties have a general expectation that something will happen "right now." "Right now" is a loose term, but in general it means that something will happen on the order of seconds or less rather than days or weeks. Real-time interactions are often (but not always) short exchanges involving events or data. We use the letter "R" to signify a real-time interaction.
