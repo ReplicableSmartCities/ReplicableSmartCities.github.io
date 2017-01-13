@@ -26,7 +26,7 @@ A store-and-forward interaction is one where the sending and receiving sides of 
 
 A batch interaction is one where groups of information elements are exchanged at the same time in "batches." A batch could be as small as one item or as large as billions of items, but the general idea is that some number of elements are collected together and transmitted as a group *without* the expectations of a real-time interaction. Batch interactions are often (but not always) larger exchanges involving collections of events or data. We use the letter "B" to signify a batch interaction.
 
-### Architectural Patterns
+### Interaction Patterns
 
 Patterns are repeatable ways of organizing hardware, software and systems. They make it easier to recognize when a particular design goal can be implemented using a design that's been implemented before. There are many options, variations and details associated with any given technical architecture and we aren't attempting to describe every permutation. Instead, our aim is to describe the primary patterns that can be used to quickly differentiate, characterize and communicate how a particular replicable implementation works at the conceptual level.
 
