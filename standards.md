@@ -4,12 +4,22 @@
 
 ### MQTT
 
-MQTT is a lightweight publish/subscribe messaging transport for machine-to-machine connectivity. It's an OASIS standard and the current version is MQTT v3.1.1.
+MQTT (MQ Telemetry Transport) is a lightweight publish/subscribe messaging transport for machine-to-machine connectivity. It's an OASIS standard and the current version is MQTT v3.1.1.
 
 * [MQTT.org](http://mqtt.org)
 * [Protocol Specifications](http://mqtt.org/documentation)
 * [Open Source MQTT Software](https://github.com/mqtt/mqtt.github.io/wiki/software?id=software)
 * [Mosquitto](https://mosquitto.org/) - an open source MQTT Broker from the Eclipse Foundation
+* [RabbitMQ](https://www.rabbitmq.com/) - an open source, multi-protocol message broker that supports MQTT and AMQP
+
+### AMQP
+
+AMQP is an open standard for passing business messages between applications or organizations. It's an ISO/IEC and OASIS standard and the current version is AMQP 1.0.
+
+* [AMQP.org](https://www.amqp.org)
+* [Protocol Specifications](http://www.amqp.org/resources/download)
+* [Clients & Developer Tools](https://www.rabbitmq.com/devtools.html)
+* [RabbitMQ](https://www.rabbitmq.com/) - an open source, multi-protocol message broker that supports AMQP and MQTT
 
 ### JSON
 
