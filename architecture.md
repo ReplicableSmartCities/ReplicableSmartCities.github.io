@@ -32,7 +32,7 @@ Patterns are repeatable ways of organizing hardware, software and systems. They 
 
 #### Pattern #1 - Produce and Consume Sensor Data via MQTT
 
-This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used with sensors that periodically report information that other applications use. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network.
+This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used with sensors that periodically report information that other applications use. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network. Consuming applications receive sensor data by subscribing to one or more MQTT topics hosted by an MQTT broker.
 
 ![](https://replicablesmartcities.github.io/pattern1.svg)
 
@@ -40,19 +40,35 @@ This pattern is used by sensors and applications that can communicate over a pri
 
 #### Pattern #2 - Send Message to Sensor via MQTT
 
-This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used to send commands or data to sensors from one or more controlling applications. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network.
+This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used to send commands or data to sensors from one or more controlling applications. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network. Controlling applications send sensor commands or data by publishing to one or more MQTT topics to a MQTT broker.
 
 ![](https://replicablesmartcities.github.io/pattern2.svg)
 
 ---
 
-#### Pattern #3 - Bridging Function
+#### Pattern #3 - Produce and Consume Sensor Data via Native API
+
+This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used with sensors that periodically report information that other applications use. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network. Consuming applications receive sensor data by interacting with the sensor's API. The sensor API may be relatively simple or it may be a part of a larger sensing system embodying multiple sensors.
+
+![](https://replicablesmartcities.github.io/pattern3.svg)
+
+---
+
+#### Pattern #4 - Send Message to Sensor via Native API
+
+This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used to send commands or data to sensors from one or more controlling applications. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network. Controlling applications sene sensor commands or data by interacting with the sensor's API. The sensor API may be relatively simple or it may be a part of a larger sensing system embodying multiple sensors.
+
+![](https://replicablesmartcities.github.io/pattern4.svg)
+
+---
+
+#### Pattern #5 - Bridging Function
 
 This pattern is used to interconnect two or more systems, applications or cloud environments that don't natively interconnect. A bridging function is typically a software program, a service, a message queue, or a hardware appliance that knows how to talk to the Application Programming Interfaces (APIs) of each interconnecting system. Bridging functions are typically needed when the APIs or communication semantics differ enough between systems that they can't directly communicate with each other. Bridging functions may include data transformation, format conversions, routing, prioritization, synchronization, filtering, buffering, authentication, encode/decode, or other functions.
 
 A bridging function may run as a part of (e.g. "inside") one of the interconnecting systems or may run independently outside of the interconnecting systems.
 
-![](https://replicablesmartcities.github.io/pattern3.svg)
+![](https://replicablesmartcities.github.io/pattern5.svg)
 
 ---
 
