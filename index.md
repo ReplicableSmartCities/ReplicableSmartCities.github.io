@@ -23,3 +23,7 @@ We're defining a set of [Architectural Patterns](https://replicablesmartcities.g
 
 Replicable software templates, data structures and documentation can be found in the [GitHub site](https://github.com/ReplicableSmartCities).
 
+## Terminology
+
+A list of acronyms and terms can be found on the [Terminology](https://replicablesmartcities.github.io/terminology) page.
+
