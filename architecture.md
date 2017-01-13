@@ -38,7 +38,7 @@ This pattern is used by sensors and applications that can communicate over a pri
 
 ---
 
-#### Pattern #2 - Send Message to Sensor via MQTT
+#### Pattern #2 - Send Message to Sensor or Actuator via MQTT
 
 This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used to send commands or data to sensors from one or more controlling applications. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network. Controlling applications send sensor commands or data by publishing to one or more MQTT topics to a MQTT broker.
 
@@ -54,7 +54,7 @@ This pattern is used by sensors and applications that can communicate over a pri
 
 ---
 
-#### Pattern #4 - Send Message to Sensor via Native API
+#### Pattern #4 - Send Message to Sensor or Actuator via Native API
 
 This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used to send commands or data to sensors from one or more controlling applications. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network. Controlling applications send sensor commands or data by interacting with the sensor's API. The sensor API may be relatively simple or it may be a part of a larger sensing system embodying multiple sensors.
 
