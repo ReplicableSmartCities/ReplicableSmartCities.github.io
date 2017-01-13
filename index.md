@@ -19,6 +19,10 @@ Open standards and conventions, whether established by standards organizations o
 
 We're defining a set of [Architectural Patterns](https://replicablesmartcities.github.io/architecture) that illustrate different ways devices, applications and systems can interact to exchange information.
 
+## Security & Privacy
+
+A set of security & privacy principles are defined and followed.
+
 ## GitHub Repositories
 
 Replicable software templates, data structures and documentation can be found in the [GitHub site](https://github.com/ReplicableSmartCities).
