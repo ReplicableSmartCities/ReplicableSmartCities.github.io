@@ -28,6 +28,8 @@ A batch interaction is one where groups of information elements are exchanged at
 
 Patterns are repeatable ways of organizing hardware, software and systems. They make it easier to recognize when a particular design goal can be implemented using a design that's been implemented before. There are many options, variations and details associated with any given technical architecture and we aren't attempting to describe every permutation. Instead, our aim is to describe the primary patterns that can be used to quickly differentiate, characterize and communicate how a particular replicable implementation works at the conceptual level.
 
+---
+
 #### Pattern #1 - Produce and Consume Sensor Data via MQTT
 
 This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used with sensors that periodically report information that other applications use. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network.
@@ -41,8 +43,6 @@ This pattern is used by sensors and applications that can communicate over a pri
 This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used to send commands or data to sensors from one or more controlling applications. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network. 
 
 ![](https://replicablesmartcities.github.io/pattern2.svg)
-
----
 
 <br>
 <br>
