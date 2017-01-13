@@ -40,9 +40,21 @@ This pattern is used by sensors and applications that can communicate over a pri
 
 #### Pattern #2 - Send Message to Sensor via MQTT
 
-This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used to send commands or data to sensors from one or more controlling applications. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network. 
+This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used to send commands or data to sensors from one or more controlling applications. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network.
 
 ![](https://replicablesmartcities.github.io/pattern2.svg)
+
+---
+
+#### Pattern #3 - Bridging Function
+
+This pattern is used to interconnect two or more systems, applications or cloud environments that don't natively interconnect. A bridging function is typically a software program, a service, a message queue, or a hardware appliance that knows how to talk to the Application Programming Interfaces (APIs) of each interconnecting system. Bridging functions are typically needed when the APIs or communication semantics differ enough between systems that they can't directly communicate with each other. Bridging functions may include data transformation, format conversions, routing, prioritization, synchronization, filtering, buffering, authentication, encode/decode, or other functions.
+
+A bridging function may run as a part of (e.g. "inside") one of the interconnecting systems or may run independently outside of the interconnecting systems.
+
+![](https://replicablesmartcities.github.io/pattern3.svg)
+
+---
 
 <br>
 <br>
