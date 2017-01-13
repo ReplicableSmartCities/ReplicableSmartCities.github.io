@@ -34,11 +34,15 @@ This pattern is used by sensors and applications that can communicate over a pri
 
 ![](https://replicablesmartcities.github.io/pattern1.svg)
 
+---
+
 #### Pattern #2 - Send Message to Sensor via MQTT
 
 This pattern is used by sensors and applications that can communicate over a private or public network in real-time. It is typically used to send commands or data to sensors from one or more controlling applications. Devices and applications may be directly connected to the network or may communicate through a specialized communications network such as a mesh or point-to-point wireless network. 
 
 ![](https://replicablesmartcities.github.io/pattern2.svg)
+
+---
 
 <br>
 <br>
