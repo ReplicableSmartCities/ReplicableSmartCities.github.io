@@ -70,8 +70,6 @@ A bridging function may run as a part of (e.g. "inside") one of the interconnect
 
 ![](https://replicablesmartcities.github.io/pattern5.svg)
 
----
-
 <br>
 <br>
 
