@@ -28,6 +28,10 @@ JSON is a lightweight data-interchange format. Its purpose is to provide a way t
 * [JSON.org](http://www.json.org/)
 * [ECMA-404 The JSON Data Interchange Format](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)
 
+### HTTP and HTTPS
+
+Hypertext Transfer Prototcol (HTTP) is the standard application communication protocol used on the web. HTTP Secure (HTTPS) is the secure form of HTTP over TLS (Transport Layer Security).
+
 ### REST
 
 Representational state transfer (REST) is a way of providing interoperability between computer systems using web services on private networks or the Internet. It's widely used for building Application Programming Interfaces (APIs) that tie applications together. It builds upon common web technologies including HTTP and Uniform Resource Identifiers (URIs). Much has been written about REST and a quick Google search will yield many tutorials and examples.
