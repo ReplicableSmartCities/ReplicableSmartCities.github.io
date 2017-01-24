@@ -4,7 +4,7 @@
 
 ### MQTT
 
-MQTT (MQ Telemetry Transport) is a lightweight publish/subscribe messaging transport for machine-to-machine connectivity. It's an OASIS standard and the current version is MQTT v3.1.1.
+MQ Telemetry Transport (MQTT) is a lightweight publish/subscribe messaging transport for machine-to-machine connectivity. It's an OASIS standard and the current version is MQTT v3.1.1.
 
 * [MQTT.org](http://mqtt.org)
 * [Protocol Specifications](http://mqtt.org/documentation)
@@ -14,7 +14,7 @@ MQTT (MQ Telemetry Transport) is a lightweight publish/subscribe messaging trans
 
 ### AMQP
 
-AMQP is an open standard for passing business messages between applications or organizations. It's an ISO/IEC and OASIS standard and the current version is AMQP 1.0.
+Advanced Message Queuing Protocol (AMQP) is an open standard for passing business messages between applications or organizations. It's an ISO/IEC and OASIS standard and the current version is AMQP 1.0.
 
 * [AMQP.org](https://www.amqp.org)
 * [Protocol Specifications](http://www.amqp.org/resources/download)
@@ -23,7 +23,7 @@ AMQP is an open standard for passing business messages between applications or o
 
 ### JSON
 
-JSON is a lightweight data-interchange format. Its purpose is to provide a way to present data elements in a structured manner that is easy for machines to produce and consume, and easy for people to read and understand. Open source implementation components are available in a number of programming languages.
+JavaScript Object Notation (JSON) is a lightweight data-interchange format. Its purpose is to provide a way to present data elements in a structured manner that is easy for machines to produce and consume, and easy for people to read and understand. Open source implementation components are available in a number of programming languages.
 
 * [JSON.org](http://www.json.org/)
 * [ECMA-404 The JSON Data Interchange Format](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)
@@ -34,7 +34,7 @@ Hypertext Transfer Prototcol (HTTP) is the standard application communication pr
 
 ### REST
 
-Representational state transfer (REST) is a way of providing interoperability between computer systems using web services on private networks or the Internet. It's widely used for building Application Programming Interfaces (APIs) that tie applications together. It builds upon common web technologies including HTTP and Uniform Resource Identifiers (URIs). Much has been written about REST and a quick Google search will yield many tutorials and examples.
+Representational State Transfer (REST) is a way of providing interoperability between computer systems using web services on private networks or the Internet. It's widely used for building Application Programming Interfaces (APIs) that tie applications together. It builds upon common web technologies including HTTP and Uniform Resource Identifiers (URIs). Much has been written about REST and a quick Google search will yield many tutorials and examples.
 
 ### Docker
 
